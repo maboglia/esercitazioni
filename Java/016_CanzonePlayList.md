@@ -54,3 +54,100 @@ L'applicazione Java che creeremo consentirà agli utenti di:
 
 **Conclusioni:**
 Con questa esercitazione, gli studenti avranno l'opportunità di praticare la manipolazione dei file in Java e la creazione di file HTML. Potranno anche esplorare ulteriori miglioramenti e funzionalità per espandere l'applicazione.
+
+
+---
+
+### Esempio lettura da file csv
+
+```java
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class PlaylistCreator {
+
+    public static void main(String[] args) {
+        String csvFile = "elenco_canzoni.csv";
+        List<Song> playlist = readCSV(csvFile);
+
+        // Create a playlist for a specific genre (e.g., Rock)
+        List<Song> rockPlaylist = createGenrePlaylist(playlist, "Rock");
+
+        // Display the Rock playlist
+        System.out.println("Rock Playlist:");
+        for (Song song : rockPlaylist) {
+            System.out.println(song.getArtist() + " - " + song.getName() + " (" + song.getAlbum() + ")");
+        }
+    }
+
+    private static List<Song> readCSV(String file) {
+        List<Song> songs = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] data = line.split(",");
+                if (data.length >= 5) {
+                    String name = data[0];
+                    String artist = data[1];
+                    String album = data[2];
+                    String duration = data[3];
+                    String genre = data[4];
+                    songs.add(new Song(name, artist, album, duration, genre));
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return songs;
+    }
+
+    private static List<Song> createGenrePlaylist(List<Song> songs, String genre) {
+        List<Song> genrePlaylist = new ArrayList<>();
+        for (Song song : songs) {
+            if (song.getGenre().equalsIgnoreCase(genre)) {
+                genrePlaylist.add(song);
+            }
+        }
+        return genrePlaylist;
+    }
+}
+
+class Song {
+    private String name;
+    private String artist;
+    private String album;
+    private String duration;
+    private String genre;
+
+    public Song(String name, String artist, String album, String duration, String genre) {
+        this.name = name;
+        this.artist = artist;
+        this.album = album;
+        this.duration = duration;
+        this.genre = genre;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public String getAlbum() {
+        return album;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+}
+```
