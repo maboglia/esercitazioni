@@ -173,3 +173,88 @@
 
 #### Conclusione
 In questa esercitazione hai creato una semplice applicazione di biglietteria per concerti usando Spring Boot. Hai imparato a configurare un progetto Spring Boot, creare entità JPA, repository, servizi e controller REST. Questa base può essere estesa con funzionalità aggiuntive come autenticazione, gestione delle prenotazioni e altro ancora.
+
+---
+
+Istruzioni SQL per creare le tabelle e gli insert di prova per l'applicazione di biglietteria per concerti.
+
+### Istruzioni SQL
+
+#### Creazione della tabella `Concert`
+
+```sql
+CREATE TABLE Concert (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    artist VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+    availableTickets INT NOT NULL
+);
+```
+
+#### Insert di prova
+
+```sql
+INSERT INTO Concert (name, artist, date, availableTickets) VALUES
+('Concert A', 'Artist A', '2024-08-01', 100),
+('Concert B', 'Artist B', '2024-09-15', 150),
+('Concert C', 'Artist C', '2024-10-10', 200),
+('Concert D', 'Artist D', '2024-11-20', 250),
+('Concert E', 'Artist E', '2024-12-05', 300);
+```
+
+### Utilizzo del database H2
+
+Poiché stiamo utilizzando H2 come database in memoria per questa esercitazione, è possibile eseguire le istruzioni SQL direttamente nella console H2 integrata di Spring Boot.
+
+#### Accesso alla console H2
+
+1. Avvia l'applicazione Spring Boot.
+2. Apri un browser web e vai all'URL: `http://localhost:8080/h2-console`.
+3. Inserisci le seguenti informazioni per connetterti al database:
+   - **JDBC URL**: `jdbc:h2:mem:testdb`
+   - **Username**: `sa`
+   - **Password**: `password`
+4. Clicca su "Connect".
+
+#### Esecuzione delle istruzioni SQL
+
+1. Una volta connesso alla console H2, copia e incolla le istruzioni SQL fornite sopra nella sezione di input della console.
+2. Esegui le istruzioni SQL per creare la tabella `Concert` e inserire i dati di prova.
+
+### Configurazione del file `import.sql`
+
+In alternativa, puoi creare un file `import.sql` nella directory `src/main/resources` del tuo progetto Spring Boot. Questo file verrà eseguito automaticamente all'avvio dell'applicazione per popolare il database con i dati iniziali.
+
+#### Contenuto del file `import.sql`
+
+```sql
+CREATE TABLE Concert (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    artist VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+    availableTickets INT NOT NULL
+);
+
+INSERT INTO Concert (name, artist, date, availableTickets) VALUES
+('Concert A', 'Artist A', '2024-08-01', 100),
+('Concert B', 'Artist B', '2024-09-15', 150),
+('Concert C', 'Artist C', '2024-10-10', 200),
+('Concert D', 'Artist D', '2024-11-20', 250),
+('Concert E', 'Artist E', '2024-12-05', 300);
+```
+
+Salva il file `import.sql` e riavvia l'applicazione Spring Boot. Le tabelle e i dati di prova verranno creati automaticamente al riavvio.
+
+### Verifica
+
+Puoi verificare che i dati siano stati inseriti correttamente eseguendo una query SELECT nella console H2:
+
+```sql
+SELECT * FROM Concert;
+```
+
+Questo ti mostrerà tutti i concerti inseriti nel database.
+
+Con questi passaggi, hai configurato e popolato il database H2 per la tua applicazione di biglietteria per concerti con Spring Boot.
