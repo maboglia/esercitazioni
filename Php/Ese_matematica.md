@@ -1,4 +1,3 @@
-------------------------------------------------------------------------------------------
 acquisire un numero intero e visualizzare i suoi divisori
 Pagina html
 <html>
@@ -35,7 +34,9 @@ pagina php
   }
  }
 ?>
---------------------------------------------------------------------------------------
+
+---
+
 Creare un programma in php che dati due numeri interi e positivi individui i numeri divisibili per sette e li memorizzi in un file di testo
 Pagina html
 <html>
@@ -138,7 +139,9 @@ Pagina php
   ?>
  </body>
 </html>
-----------------------------------------------------------------------------------------------------------------------------------------
+
+---
+--------------------------------------------------
 Creare un programma in Php per la risoluzione di un'equazione di secondo grado
 Pagina html
 <html>
@@ -174,7 +177,9 @@ if($d<0)
 echo"Soluzione impossibile";
 }
 ?>
----------------------------------------------------------------------------------------------------------------------------------------
+
+---
+-------------------------------------------------
 Realizzare un programma che inserendo da modulo form un numero definisca la regola di Fibonacci
 Pagina html
 <html>
@@ -215,7 +220,9 @@ echo"<body bgcolor='lightgreen'>";
   }
  }
 ?>
------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+---------------------------------------------------
 Dati in ingresso con il modulo form  due numeri, individuare quali di questi sono numeri primi
 Pagina html
 <html>
@@ -276,7 +283,9 @@ Pagina Php
    }
   }
 ?>
--------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+-----------------------------------------------------
 Dato un numero acquisito dall'esterno con il modulo form, individuare il fattoriale di un numero
 (In matematica, se n è un intero positivo, si definisce n fattoriale e si indica con n! il prodotto dei primi n numeri interi positivi.)
 formula il prodotto del risultato precedente per in numero successivo
@@ -317,7 +326,9 @@ echo"<body background='sfondo.jpg'>";
           echo"<font size='5'><span>Il fattoriale di $num1 è $fatt</span></font>";
     }
 ?>     
----------------------------------------------------------------------------------------------------------------------------------------------- 
+
+---
+-------------------------------------------------------- 
 Creare un programma in Php che determini due numeri perfetti compresi tra due numeri inseriti tramite modulo form
 Pagina html
 <html>

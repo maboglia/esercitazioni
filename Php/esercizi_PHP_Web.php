@@ -56,12 +56,12 @@ PHP Code:
 
     <?php  
     //whether ip is from share internet  
-    if (!emptyempty($_SERVER['HTTP_CLIENT_IP']))     
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))     
       {  
         $ip_address = $_SERVER['HTTP_CLIENT_IP'];  
       }  
     //whether ip is from proxy  
-    elseif (!emptyempty($_SERVER['HTTP_X_FORWARDED_FOR']))    
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))    
       {  
         $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];  
       }  
