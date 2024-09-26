@@ -1,7 +1,3 @@
-# Ecco il testo dell'esercitazione sull'Esercizio Biblioteca
-
----
-
 # Esercizio Biblioteca
 
 Realizzare un sistema software per la gestione di una biblioteca, composto dalle seguenti classi: `Libro`, `LibroPerBambini`, `Biblioteca`, e una classe di test.

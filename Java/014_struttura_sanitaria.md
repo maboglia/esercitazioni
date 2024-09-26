@@ -1,4 +1,4 @@
-# Esercizio MVC: Gestione di una Struttura Sanitaria
+# Gestione di una Struttura Sanitaria
 
 Realizzate un'applicazione Java per la gestione di una struttura sanitaria, seguendo il modello MVC (Model-View-Controller). L'applicazione dovrà consentire agli operatori sanitari di gestire i pazienti, le visite mediche e altre attività pertinenti.
 

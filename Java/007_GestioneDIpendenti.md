@@ -1,4 +1,4 @@
-# # Gestione Dipendenti
+# Gestione Dipendenti
 
 ## Dipendente
 

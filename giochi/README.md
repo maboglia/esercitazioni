@@ -15,6 +15,6 @@
 * Quiz lingue - (API Rest Dizionario ITA-ENG)
 
 - [Wordle](https://github.com/maboglia/CorsoJava/blob/master/esercitazioni/LaboratorioJava/01_Giochi/wordle.md)
-  * [cloud2022](https://github.com/maboglia/Cloud2022/tree/main/workspace/Prj19_Wordle)
+* [cloud2022](https://github.com/maboglia/Cloud2022/tree/main/workspace/Prj19_Wordle)
 
 ---

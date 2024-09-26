@@ -1,4 +1,4 @@
-# ESERCIZIO: GESTIONE AZIENDALE
+# GESTIONE AZIENDALE
 
 ## **Esercitazione: Gestione degli Impiegati in un'azienda con calcolo dello stipendio totale**
 

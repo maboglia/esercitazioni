@@ -1,4 +1,4 @@
-# Esercizio Java: Quiz sui Paesi del Mondo
+# Quiz sui Paesi del Mondo
 
 Realizzate un'applicazione Java che metta alla prova le conoscenze geografiche degli utenti tramite un quiz sui paesi del mondo. Ogni domanda presenterà una domanda relativa a un determinato paese, ad esempio trovare la capitale, e fornirà tre opzioni di risposta, di cui solo una corretta.
 
