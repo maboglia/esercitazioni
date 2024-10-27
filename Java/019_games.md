@@ -1,9 +1,11 @@
 # Esercitazione: Elaborazione dei dati da file CSV in Java
 
 ## Obiettivo:
+
 L'obiettivo di questa esercitazione è quello di praticare l'elaborazione dei dati da un file CSV utilizzando il linguaggio di programmazione Java. Imparerai a leggere un file CSV contenente una tabella di giochi elettronici, a estrarre i dati dalle righe del file, a creare oggetti corrispondenti ai giochi elettronici e infine ad elaborare tali dati per ottenere informazioni utili.
 
 ## Attività:
+
 1. Analisi del formato del file CSV:
    - Analizza il file CSV fornito e identifica il separatore dei campi e il tipo di dati presenti in ciascuna colonna.
 
@@ -29,6 +31,7 @@ L'obiettivo di questa esercitazione è quello di praticare l'elaborazione dei da
    - Discuti su come ottimizzare il codice per migliorare le prestazioni o rendere il codice più leggibile e manutenibile.
 
 ## Suggerimenti:
+
 - Assicurati di comprendere completamente il formato del file CSV prima di scrivere il codice per leggerlo.
 - Usa una struttura dati appropriata per memorizzare i giochi elettronici letti dal file CSV, come una lista o una mappa.
 - Organizza il tuo codice in metodi separati per migliorare la leggibilità e la manutenibilità.

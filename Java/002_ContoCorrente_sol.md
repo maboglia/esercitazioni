@@ -43,3 +43,62 @@ Fondi insufficienti o importo non valido per il prelievo.
 ## Consegna
 
 Concludi l'esercizio scrivendo il codice sorgente completo per la classe `ContoCorrente` e includendo uno screenshot o un file di testo con l'output ottenuto durante il test dell'applicazione. Assicurati che il codice sia ben commentato e formattato in modo leggibile.
+
+---
+
+## Esempio di soluzione
+
+Ecco un esempio di esercitazione Java sulla gestione di un conto corrente bancario. Questo esercizio si concentra sulla creazione di una classe `ContoCorrente` e sulla simulazione di alcune operazioni bancarie di base.
+
+```java
+public class ContoCorrente {
+    private String nomeTitolare;
+    private String numeroConto;
+    private double saldo;
+
+    public ContoCorrente(String nomeTitolare, String numeroConto, double saldoIniziale) {
+        this.nomeTitolare = nomeTitolare;
+        this.numeroConto = numeroConto;
+        this.saldo = saldoIniziale;
+    }
+
+    public void deposito(double importo) {
+        if (importo > 0) {
+            saldo += importo;
+            System.out.println("Deposito di " + importo + " effettuato con successo.");
+        } else {
+            System.out.println("L'importo del deposito deve essere maggiore di zero.");
+        }
+    }
+
+    public void prelievo(double importo) {
+        if (importo > 0 && importo <= saldo) {
+            saldo -= importo;
+            System.out.println("Prelievo di " + importo + " effettuato con successo.");
+        } else {
+            System.out.println("Fondi insufficienti o importo non valido per il prelievo.");
+        }
+    }
+
+    public void stampaSaldo() {
+        System.out.println("Saldo attuale del conto corrente (" + numeroConto + "): " + saldo);
+    }
+
+    public static void main(String[] args) {
+        ContoCorrente mioConto = new ContoCorrente("Mario Rossi", "12345", 1000.0);
+
+        mioConto.stampaSaldo();
+        mioConto.deposito(500.0);
+        mioConto.stampaSaldo();
+        mioConto.prelievo(200.0);
+        mioConto.stampaSaldo();
+        mioConto.prelievo(1500.0); // Tentativo di prelievo di un importo superiore al saldo.
+    }
+}
+```
+
+In questo esercizio, abbiamo creato una classe `ContoCorrente` con attributi per il nome del titolare, il numero del conto e il saldo. Abbiamo implementato tre metodi principali: `deposito`, `prelievo` e `stampaSaldo` per effettuare operazioni bancarie e visualizzare il saldo corrente.
+
+Nel metodo `main`, abbiamo creato un'istanza di `ContoCorrente` chiamata `mioConto` e quindi eseguito alcune operazioni di deposito e prelievo per illustrare il funzionamento della classe.
+
+Puoi estendere questo esercizio aggiungendo ulteriori funzionalità, come il controllo degli interessi, la gestione delle transazioni e così via.
