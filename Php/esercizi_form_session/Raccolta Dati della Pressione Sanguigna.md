@@ -1,12 +1,28 @@
-# Esercizio 8 pressione sanguigna massima e minima
+# Esercizio 8: Raccolta Dati della Pressione Sanguigna
 
-Si vuole realizzare un servizio Web per la raccolta dei dati relativi alla pressione sanguigna massima e minima di un insieme di pazienti di controllo. Il servizio prevede le seguenti pagine:
+In questo esercizio, l'obiettivo è creare un servizio web per raccogliere e analizzare i dati relativi alla pressione sanguigna massima e minima di un gruppo di pazienti. Il sistema permette di inserire i dati della pressione e di visualizzare statistiche su di essi. Le pagine richieste sono le seguenti:
 
-* Un form in cui l'utente può scegliere il nome del paziente da un menù a tendina e inserire la pressione massima e minima. Il form permette l'inserimento di una misura per volta e le opzioni del menù a tendina devono essere generate dinamicamente a partire da un array con i nomi dei pazienti (si considerino "Mario", "Giuseppe", "Filippo", "Maria", "Rosa", "Emma", "Aldo", "Leonardo", "Marina").
-    
-* Una pagina di raccolta dei dati che memorizza sul server gli inserimenti fatti col form di cui al punto 1 nella stessa sessione di lavoro. Ad ogni dato inserito deve essere associato anche il timestamp (si usi la funzione time() che fornisce il timestamp come numero di secondi fra il tempo presente e 1/1/1970 00:00:00 GMT).
-    
-* Una pagina di riepilogo che stampa per ogni paziente la pressione massima più alta e la differenza media fra pressione massima e minima delle ultime 12 ore e dell'ultima giornata (si assuma che si parta dal timestamp attuale meno 12*60*60 e 24*60*60 rispettivamente). 
-* Infine supponendo che ciascun paziente sia associato ad una categoria ("Mario"=>"M-60", "Giuseppe" =>"M-60", "Filippo" =>"M-70", "Maria"=>"F-60", "Rosa"=>"F-60", "Emma" =>"F-70", "Aldo" =>"M-70", "Leonardo" =>"M-60", "Marina" =>"M-70") la pagina deve stampare la media, su tutti i dati disponibili, delle pressioni massime e minime misurate per ciascuna categoria.
+### 1. **Pagina di inserimento dei dati**
+   - L'utente può selezionare il **nome del paziente** da un menu a tendina e inserire la **pressione sanguigna massima** e **minima**.
+   - Il menu a tendina deve essere generato dinamicamente a partire da un array contenente i seguenti nomi di pazienti: "Mario", "Giuseppe", "Filippo", "Maria", "Rosa", "Emma", "Aldo", "Leonardo", "Marina".
+   - Ogni invio del form consente di registrare una sola misura. Per registrare più misurazioni, l'utente dovrà inviare il form più volte nella stessa sessione.
 
-Si scrivano il form e le due pagine di raccolta dati e riepilogo usando HTML/PHP. Si supponga di utilizzare il metodo POST nel form.
+### 2. **Pagina di raccolta dei dati**
+   - I dati inseriti tramite il form (nome del paziente, pressione massima, pressione minima) devono essere memorizzati sul server. Ad ogni inserimento viene associato un **timestamp** utilizzando la funzione `time()`, che fornisce il numero di secondi dal 1 gennaio 1970 alle 00:00:00 GMT.
+   - Le informazioni devono essere memorizzate in modo persistente all'interno della sessione corrente.
+
+### 3. **Pagina di riepilogo**
+   - La pagina visualizza, per ogni paziente, le seguenti informazioni:
+     - **Pressione massima più alta** registrata.
+     - **Differenza media tra pressione massima e minima** calcolata per le ultime **12 ore** e per l'ultima **giornata** (partendo rispettivamente da `12*60*60` e `24*60*60` secondi prima del timestamp attuale).
+   
+   - Inoltre, ogni paziente è associato a una **categoria**:
+     - **M-60**: "Mario", "Giuseppe", "Leonardo".
+     - **M-70**: "Filippo", "Aldo", "Marina".
+     - **F-60**: "Maria", "Rosa".
+     - **F-70**: "Emma".
+   
+   - Per ciascuna categoria, la pagina deve mostrare la **media delle pressioni massime e minime** rilevate per tutti i pazienti appartenenti a quella categoria, calcolata su tutti i dati disponibili.
+
+### Obiettivo:
+Scrivere il form e le due pagine di raccolta dati e riepilogo utilizzando **HTML** e **PHP**, con l'uso del metodo **POST** per il form di inserimento.

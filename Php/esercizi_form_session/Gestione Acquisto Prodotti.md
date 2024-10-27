@@ -1,11 +1,17 @@
-# Esercizio 2 acquisto prodotti
+# Esercizio 2: Gestione Acquisto Prodotti
 
-Si vuole realizzare un servizio Web per la gestione dell'acquisto di un insieme di prodotti da parte di un utente. Il servizio prevede le seguenti pagine:
+L'obiettivo è sviluppare un servizio web per consentire a un utente di gestire l'acquisto di vari prodotti. Il servizio comprende le seguenti pagine principali:
 
-* un form in cui l'utente può inserire il nome del prodotto (una stringa) e il numero di pezzi che vuole acquistare. Il form permette l'inserimento di un acquisto per volta e l'inserimento di più acquisti avviene inviando più volte il form in una stessa sessione.
-    
-* una pagina di raccolta delle richieste di acquisto che memorizza sul server gli acquisti fatti col form del punto 1. Si assume che se l'utente invia più di una volta il numero di pezzi per lo stesso prodotto nella stessa sessione, il numero di pezzi è uguale all'ultimo valore inserito.
-    
-* una pagina di riepilogo che stampa la lista dei prodotti, il totale dei pezzi e il prodotto per cui è richiesto il massimo numero di pezzi. Nel caso ci siano più prodotti a cui corrisponde il valore massimo di pezzi si stampa il primo nella lista.
+1. **Pagina di inserimento acquisti**:
+   - L'utente può inserire il nome di un prodotto e il numero di pezzi che desidera acquistare tramite un form. 
+   - Ogni invio del form registra un acquisto per volta. Se l'utente desidera acquistare più prodotti, deve inviare il form più volte nella stessa sessione.
 
-Si scrivano il form e le due pagine di prenotazione e riepilogo usando HTML/PHP. Si supponga di utilizzare il metodo GET nel form.
+2. **Pagina di registrazione degli acquisti**:
+   - Questa pagina memorizza gli acquisti effettuati dall'utente sul server.
+   - Se un prodotto viene acquistato più volte nella stessa sessione, il numero di pezzi viene aggiornato con l'ultimo valore inserito per quel prodotto.
+
+3. **Pagina di riepilogo degli acquisti**:
+   - Questa pagina mostra la lista dei prodotti acquistati e il totale complessivo dei pezzi ordinati.
+   - Viene inoltre indicato il prodotto per cui è stato richiesto il maggior numero di pezzi. Se ci sono più prodotti con lo stesso numero massimo, viene mostrato il primo in ordine di inserimento.
+
+Il form e le due pagine di raccolta degli acquisti e di riepilogo vanno implementati utilizzando HTML e PHP, con l'invio dei dati gestito tramite il metodo GET.

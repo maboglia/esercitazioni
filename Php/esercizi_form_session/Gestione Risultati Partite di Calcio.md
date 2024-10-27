@@ -1,11 +1,22 @@
-# Esercizio 5 risultati partite calcio
+# Esercizio 5: Gestione Risultati Partite di Calcio
 
-Si vuole realizzare un servizio Web per la gestione della raccolta dei risultati delle partite di calcio. Il servizio prevede le seguenti pagine:
+Questo esercizio richiede la realizzazione di un servizio web che consenta agli utenti di inserire e gestire i risultati delle partite di calcio, con l'obiettivo di generare automaticamente una classifica in base ai risultati inseriti. Il servizio prevede tre pagine principali:
 
-* un form in cui l'utente può inserire il risultato della partita selezionando la squadra di casa e quella ospite da un combobox generato dinamicamente a partire dalla lista delle squadre e specificando i gol delle due squadre in due campi di testo. Il form permette l'inserimento di un risultato per volta e l'inserimento di più risultati avviene inviando più volte il form in una stessa sessione.
-    
-* una pagina di raccolta dei risultati che memorizza sul server le partite inserite col form del punto 1. Si assume che se l'utente invia più di una volta un risultato per la stessa partita nella stessa sessione, il punteggio memorizzato è l'ultimo inserito.
-    
-* una pagina di riepilogo che stampa la classifica ordinata e calcolata assegnando 3 punti per la vittoria, 1 per il pareggio e 0 per la sconfitta.
+1. **Pagina di inserimento dei risultati**:
+   - L'utente può selezionare la squadra di casa e quella ospite da un combobox dinamico che mostra la lista delle squadre.
+   - L'utente inserisce il numero di gol per la squadra di casa e per la squadra ospite in due campi di testo separati.
+   - Ogni invio del form registra un solo risultato, ma l’utente può aggiungere più risultati inviando il form più volte nella stessa sessione.
 
-Si scrivano il form e le due pagine di prenotazione e riepilogo usando HTML/PHP. Si supponga di utilizzare il metodo POST nel form.
+2. **Pagina di registrazione dei risultati**:
+   - Questa pagina memorizza i risultati delle partite sul server.
+   - Se un risultato per la stessa partita viene inserito più volte nella stessa sessione, viene memorizzato solo l'ultimo punteggio inserito.
+
+3. **Pagina di riepilogo della classifica**:
+   - Questa pagina genera e mostra una classifica aggiornata in base ai risultati inseriti.
+   - Il sistema calcola la classifica assegnando:
+     - 3 punti alla squadra vincente,
+     - 1 punto a ciascuna squadra in caso di pareggio,
+     - 0 punti alla squadra perdente.
+   - La classifica è ordinata per numero di punti, con eventuali criteri secondari come la differenza reti o i gol segnati, se necessario.
+
+L'implementazione deve essere effettuata con HTML e PHP, utilizzando il metodo POST per il form di inserimento dei risultati.

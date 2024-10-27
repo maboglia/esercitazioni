@@ -1,6 +1,6 @@
 # Esercitazione 02
 
-## magazzino e dei prodotti
+## magazzino prodotti
 
 Ecco un esercizio SQL con il tema del magazzino e dei prodotti:
 
