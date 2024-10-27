@@ -111,22 +111,22 @@ Ecco un elenco di semplici giochi che possono essere creati per esercitare logic
 
 ## 16. **Cerca e Trova**
 
-Descrizione: Creare una griglia di numeri e chiedere al giocatore di indovinare la posizione di un elemento nascosto.
-Logiche di Programmazione: Array multidimensionali, gestione di coordinate, controllo di vincoli e indici.
+- **Descrizione**: Creare una griglia di numeri e chiedere al giocatore di indovinare la posizione di un elemento nascosto.
+- **Logiche di Programmazione**: Array multidimensionali, gestione di coordinate, controllo di vincoli e indici.
 
 ---
 
 ## 17. **Gioco dei Dadi**
 
-Descrizione: Due giocatori lanciano i dadi e il punteggio più alto vince. Può essere esteso con regole aggiuntive.
-Logiche di Programmazione: Generazione di numeri casuali, gestione di loop e punteggi.
+- **Descrizione**: Due giocatori lanciano i dadi e il punteggio più alto vince. Può essere esteso con regole aggiuntive.
+- **Logiche di Programmazione**: Generazione di numeri casuali, gestione di loop e punteggi.
 
 ---
 
 ## 18. **Mastermind**
 
-Descrizione: Il giocatore deve indovinare una sequenza di colori (o numeri) generata dal computer.
-Logiche di Programmazione: Generazione di sequenze, condizioni nidificate, array, gestione degli input.
+- **Descrizione**: Il giocatore deve indovinare una sequenza di colori (o numeri) generata dal computer.
+- **Logiche di Programmazione**: Generazione di sequenze, condizioni nidificate, array, gestione degli input.
 
 
 - [Quiz capitali](https://github.com/maboglia/CorsoJava/blob/master/esercitazioni/LaboratorioJava/01_Giochi/quiz_capitali.md)
