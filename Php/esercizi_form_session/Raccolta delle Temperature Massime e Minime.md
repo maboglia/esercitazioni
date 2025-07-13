@@ -1,28 +1,99 @@
-# Esercizio 7: Raccolta delle Temperature Massime e Minime
+# 🧪 **Esercitazione PHP – Monitoraggio delle Temperature Massime e Minime**
 
-In questo esercizio, l'obiettivo è creare un servizio web per raccogliere e analizzare i dati relativi alle temperature massime e minime registrate da diverse stazioni meteorologiche. Il sistema consente di inserire i dati relativi alle temperature e di visualizzare statistiche su di esse. Le pagine richieste sono le seguenti:
+## 🎯 Obiettivo
 
-### 1. **Pagina di inserimento delle temperature**
-   - L'utente può selezionare il **nome della stazione meteorologica** da un menu a tendina, e inserire la **temperatura massima** e la **temperatura minima** registrata.
-   - Il menu a tendina deve essere generato dinamicamente a partire da un array contenente i nomi delle stazioni: "Trento", "Milano", "Torino", "Firenze", "Bologna", "Roma", "Napoli", "Bari", "Messina".
-   - Ogni invio del form consente di registrare una sola misura. Per registrare più misurazioni, l'utente dovrà inviare il form più volte nella stessa sessione.
-   
-### 2. **Pagina di raccolta dei dati**
-   - I dati inseriti tramite il form (nome della stazione, temperatura massima, temperatura minima) devono essere memorizzati sul server. Ad ogni dato registrato, viene associato un **timestamp** (utilizzando la funzione `time()` che fornisce il numero di secondi dal 1 gennaio 1970 alle 00:00:00 GMT).
-   - Tutte le temperature inserite vengono memorizzate e gestite per la stessa sessione di lavoro.
+Realizzare un'applicazione web in PHP che consenta di **raccogliere** e **analizzare** i dati meteo relativi alle temperature **massime** e **minime** registrate da diverse stazioni meteorologiche.
 
-### 3. **Pagina di riepilogo**
-   - La pagina visualizza, per ogni stazione, le seguenti informazioni:
-     - **Temperatura massima più alta** registrata nella giornata corrente.
-     - **Media delle temperature minime** registrate durante la giornata corrente e durante l'ultima settimana.
-     - La giornata corrente è considerata a partire dal timestamp attuale meno `24*60*60` (ossia le ultime 24 ore), mentre l'ultima settimana parte dal timestamp attuale meno `7*24*60*60`.
-   
-   - Inoltre, le stazioni meteorologiche sono suddivise in zone:
-     - **Nord**: "Trento", "Milano", "Torino".
-     - **Centro**: "Firenze", "Bologna", "Roma".
-     - **Sud**: "Napoli", "Bari", "Messina".
-   
-   - Per ciascuna zona, la pagina deve mostrare la media delle temperature massime e minime rilevate, calcolata su tutti i dati disponibili.
+Il progetto prevede:
 
-### Obiettivo:
-Scrivere il form e le pagine di raccolta dati e riepilogo, utilizzando **HTML** e **PHP**, con l'uso del metodo **GET** per il form di inserimento.
+* Una pagina per l’inserimento delle temperature.
+* Una per la memorizzazione e gestione dei dati.
+* Una pagina di riepilogo e analisi statistica.
+
+---
+
+## 🧾 **Requisiti funzionali**
+
+### 1. 🔧 **Pagina di inserimento dati (form HTML + PHP)**
+
+* L’utente può selezionare una **stazione meteorologica** da un menu a tendina.
+
+* Può inserire la **temperatura massima** e la **temperatura minima** rilevate.
+
+* La lista delle stazioni deve essere generata dinamicamente da un array PHP contenente:
+
+  ```php
+  ["Trento", "Milano", "Torino", "Firenze", "Bologna", "Roma", "Napoli", "Bari", "Messina"]
+  ```
+
+* Ogni invio del form registra **una sola rilevazione**.
+
+* Il form deve utilizzare il metodo **GET**.
+
+---
+
+### 2. 💾 **Gestione dei dati in sessione**
+
+* I dati inviati tramite form (stazione, temperatura max, temperatura min) devono essere **salvati nella sessione PHP**.
+* Ogni rilevazione salvata deve contenere anche un **timestamp**, generato con la funzione `time()`.
+* Tutti i dati restano disponibili per l’intera durata della sessione.
+
+---
+
+### 3. 📊 **Pagina di riepilogo e analisi**
+
+* Per **ogni stazione meteorologica**, mostrare:
+
+  * 🔺 La **temperatura massima più alta** rilevata **nelle ultime 24 ore**.
+  * 🔻 La **media delle temperature minime**:
+
+    * nelle **ultime 24 ore** (giornata corrente)
+    * negli **ultimi 7 giorni**
+
+* I dati vanno filtrati usando il **timestamp** rispetto al tempo attuale:
+
+  * Giornata corrente = `time() - 24 * 60 * 60`
+  * Ultima settimana = `time() - 7 * 24 * 60 * 60`
+
+* Le stazioni vanno suddivise in **zone geografiche**:
+
+  | Zona   | Stazioni               |
+  | ------ | ---------------------- |
+  | Nord   | Trento, Milano, Torino |
+  | Centro | Firenze, Bologna, Roma |
+  | Sud    | Napoli, Bari, Messina  |
+
+* Per **ogni zona**, calcolare e mostrare la **media complessiva** delle temperature **massime** e **minime** su **tutti i dati disponibili**.
+
+---
+
+## 🔧 **Tecnologie e strumenti richiesti**
+
+* HTML per la struttura del form e delle tabelle di riepilogo.
+* PHP per la gestione dei dati e delle sessioni.
+* Nessun database richiesto: i dati devono essere gestiti **in memoria**, tramite variabili di sessione.
+* Nessun CSS richiesto, ma è possibile aggiungere uno stile base.
+
+---
+
+## 📌 **Note aggiuntive**
+
+* Ogni pagina deve essere ben organizzata e mostrare messaggi chiari all’utente.
+* Può essere utile creare una struttura di file simile a:
+
+  ```
+  temperature/
+  ├── index.php        ← Pagina principale (riepilogo)
+  ├── insert.php       ← Pagina con il form
+  ├── store.php        ← Script che salva i dati in sessione
+  └── utils.php        ← Funzioni riutilizzabili (es. filtri temporali, calcoli medi)
+  ```
+
+---
+
+## 📝 **Compito dello studente**
+
+* Realizzare il progetto rispettando le specifiche.
+* Testare tutte le funzionalità con dati realistici.
+* Documentare brevemente il funzionamento con commenti nel codice.
+
