@@ -6,6 +6,74 @@ In questa struttura utilizzeremo tre entità principali: **Prodotti**, **Categor
 
 ---
 
+Per rispondere correttamente alle 30 query di gestione magazzino (e agli esercizi accademici successivi), è necessario padroneggiare i **quattro pilastri del linguaggio SQL** (specificamente il DQL - *Data Query Language*).
+
+Ecco la suddivisione degli argomenti e delle istruzioni corrispondenti:
+
+---
+
+### 1. Selezione e Filtro (Base)
+
+È il punto di partenza per estrarre dati da una singola tabella.
+
+* **`SELECT` / `DISTINCT**`: Per scegliere quali colonne visualizzare ed eliminare i duplicati.
+* **`WHERE`**: Per filtrare i record in base a condizioni specifiche.
+* **Operatori di confronto**: `=`, `<>`, `>`, `<`, `>=`, `<=`.
+* **Operatori logici**: `AND`, `OR`, `NOT`.
+* **`BETWEEN`**: Per intervalli di valori (es. prezzi tra 10 e 50€).
+* **`LIKE`**: Per la ricerca di testi parziali usando i wildcard (`%` per più caratteri, `_` per uno solo).
+* **`IS NULL` / `IS NOT NULL**`: Per gestire i campi vuoti.
+
+### 2. Ordinamento e Limitazione
+
+* **`ORDER BY`**: Per ordinare i risultati in modo ascendente (`ASC`) o discendente (`DESC`).
+* **`LIMIT`** (o `TOP` in alcuni dialetti): Per estrarre solo i primi *n* record (es. i 3 prodotti più cari).
+
+### 3. Relazioni tra tabelle (JOIN)
+
+Fondamentale quando i dati sono sparsi su più tabelle collegate da chiavi esterne (*Foreign Keys*).
+
+* **`INNER JOIN`**: Restituisce solo le righe che hanno una corrispondenza in entrambe le tabelle.
+* **`LEFT JOIN` (o `LEFT OUTER JOIN`)**: Restituisce tutte le righe della tabella di sinistra, anche se non ci sono corrispondenze in quella di destra (utile per trovare ad esempio "Fornitori che non hanno prodotti").
+* **Self-Join**: Unire una tabella con se stessa (comune negli esercizi sulle parentele come l'Esercizio 9).
+
+### 4. Funzioni di Aggregazione e Raggruppamento
+
+Utilizzate per calcolare statistiche e report.
+
+* **Funzioni Standard**:
+* `COUNT()`: Conta le righe.
+* `SUM()`: Somma i valori.
+* `AVG()`: Calcola la media.
+* `MIN()` / `MAX()`: Trova il valore minimo o massimo.
+
+* **`GROUP BY`**: Raggruppa le righe che hanno valori comuni in colonne specificate (es. "conta i prodotti *per ogni categoria*").
+* **`HAVING`**: È il "WHERE dei raggruppamenti". Serve a filtrare i risultati dopo che sono stati aggregati (es. "mostra solo le categorie con *più di 5 prodotti*").
+
+### 5. Subquery e Operatori Insiemistici (Avanzato)
+
+Necessari per le query più complesse (come quelle degli esercizi 1-15).
+
+* **Subquery (Query nidificate)**: Usare una `SELECT` dentro un'altra `SELECT` o `WHERE`.
+* **`IN` / `NOT IN**`: Per verificare se un valore appartiene a un insieme generato da una subquery.
+* **`EXISTS` / `NOT EXISTS**`: Per verificare l'esistenza di record correlati (spesso più efficiente di `IN`).
+* **`UNION` / `INTERSECT` / `EXCEPT**`: Per unire, intersecare o sottrarre i risultati di due query distinte.
+
+---
+
+### Sintesi della struttura di una Query complessa
+
+Se dovessi scrivere una query che usa tutto, l'ordine logico (e sintattico) sarebbe questo:
+
+1. **`SELECT`** (Cosa voglio vedere)
+2. **`FROM`** (Da quale tabella e quali JOIN)
+3. **`WHERE`** (Filtro sulle singole righe)
+4. **`GROUP BY`** (Come raggruppo i dati)
+5. **`HAVING`** (Filtro sui gruppi creati)
+6. **`ORDER BY`** (Come ordino il risultato finale)
+
+---
+
 ## 1. Architettura e DDL (Data Definition Language)
 
 Definiamo lo schema con i vincoli di integrità referenziale (*Foreign Keys*), vincoli di dominio (*Check*) e unicità.
