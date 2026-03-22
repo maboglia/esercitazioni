@@ -1,6 +1,6 @@
-# Esercitazione 06
+# 1. Esercitazione 06
 
-## Esercitazione SQL sull'argomento "Fattorino, Consegne, Prodotti"
+## 1.1. Esercitazione SQL sull'argomento "Fattorino, Consegne, Prodotti"
 
 Scenario:
 Immagina di essere il responsabile di un'azienda di consegna di cibo a domicilio. La tua azienda ha un database relazionale per gestire i fattorini, le consegne e i prodotti. Il database contiene le seguenti tabelle:
@@ -28,7 +28,7 @@ Immagina di essere il responsabile di un'azienda di consegna di cibo a domicilio
 
 ---
 
-### dati di prova
+### 1.1.1. dati di prova
 
 Ecco degli esempi di istruzioni `INSERT` per inserire dati di prova nelle tabelle `Fattorini`, `Consegne`, e `Prodotti`:
 
@@ -141,4 +141,3 @@ SELECT * FROM Prodotti ORDER BY prezzo DESC LIMIT 1;
 SELECT COUNT(DISTINCT id_prodotto) AS num_prodotti_consegnati FROM Consegne;
 ```
 
-Questi esempi di query SQL dovrebbero aiutarti a esercitarti sull'uso delle operazioni di base del linguaggio SQL applicate al contesto di un'azienda di consegna.

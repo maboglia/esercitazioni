@@ -139,4 +139,3 @@ Ecco alcuni esempi di query SQL più semplici senza utilizzare le join:
    WHERE F.FornitoreID IN (SELECT FornitoreID FROM FP GROUP BY FornitoreID HAVING COUNT(*) >= 3);
    ```
 
-Questi sono esempi di query più semplici che possono essere eseguite sulle tabelle specificate senza l'uso di join complesse. Puoi adattare e modificare queste query in base alle tue esigenze specifiche.
