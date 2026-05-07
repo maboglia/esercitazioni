@@ -1,5 +1,3 @@
----
-
 # 15) 30 Domande PHP stile esame
 
 ### (A) Base PHP
@@ -44,7 +42,10 @@
 5. Cos’è una sessione e come si usa `session_start()`?
 6. Differenza tra cookie e sessione.
 
+## bonus: Domande su framework MVC, REST API, sicurezza, ecc.
+
 ### (E) Database
+
 1. Cos’è PDO e perché si usa?
 2. Perché usare prepared statements?
 3. Differenza tra `fetch()` e `fetchAll()` in PDO.
