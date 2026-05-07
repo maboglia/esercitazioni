@@ -1,3 +1,68 @@
+---
+
+# 15) 30 Domande PHP stile esame
+
+### (A) Base PHP
+
+1. Differenza tra `echo` e `print`.
+2. Differenza tra `==` e `===`.
+3. Cos’è una variabile superglobale? Fai esempi.
+4. Che differenza c’è tra `isset()` ed `empty()`?
+5. Differenza tra `include` e `require`.
+6. Differenza tra `include_once` e `include`.
+7. Come funzionano gli scope delle variabili in PHP?
+8. A cosa serve `global` dentro una funzione?
+9. Come si definisce una costante in PHP?
+10. Differenza tra costanti e variabili.
+
+### (B) Array e stringhe
+
+1. Differenza tra array indicizzati e associativi.
+2. Differenza tra `array_push()` e `$arr[] = ...`.
+3. Differenza tra `explode()` e `implode()`.
+4. A cosa serve `count()`?
+5. Come ordinare un array associativo per chiavi e per valori?
+6. Differenza tra `sort()`, `asort()`, `ksort()`.
+
+### (C) Funzioni e OOP
+
+1. Differenza tra funzione e metodo.
+2. Cos’è il type hinting in PHP?
+3. Differenza tra `public`, `private`, `protected`.
+4. A cosa serve `static` in un metodo?
+5. Differenza tra `self` e `$this`.
+6. A cosa serve un costruttore (`__construct`)?
+7. Cos’è l’ereditarietà e come si usa `extends`?
+8. Cos’è un’interfaccia e come si usa `implements`?
+
+### (D) Web e HTTP
+
+1. Differenza tra GET e POST.
+2. A cosa serve `header()`?
+3. Cos’è `php://input` e quando si usa?
+4. Come si leggono parametri query string (`?id=3`) in PHP?
+5. Cos’è una sessione e come si usa `session_start()`?
+6. Differenza tra cookie e sessione.
+
+### (E) Database
+1. Cos’è PDO e perché si usa?
+2. Perché usare prepared statements?
+3. Differenza tra `fetch()` e `fetchAll()` in PDO.
+4. Come si gestiscono le transazioni in PDO?
+5. Differenza tra `exec()`, `query()` e `prepare()` in PDO.
+6. Come si gestisce un errore in PDO?
+7. Cos’è SQL Injection e come evitarla?
+8. Differenza tra `LIKE` e `=` in SQL.
+9. Cos’è un indice in un database e a cosa serve?
+10. Differenza tra `INNER JOIN`, `LEFT JOIN` e `RIGHT JOIN` in SQL.
+11. Cos’è la normalizzazione di un database?
+12. Differenza tra database relazionale e non relazionale.
+13. Cos’è un ORM e perché si usa?
+14. Differenza tra `DELETE` e `TRUNCATE` in SQL.
+
+
+---
+
 ## 1) Che differenza c’è tra `echo` e `print`?
 
 **Risposta:**
