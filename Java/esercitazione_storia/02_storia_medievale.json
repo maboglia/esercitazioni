@@ -1,0 +1,340 @@
+{
+  "epoca": "Medioevo",
+  "inizio": 476,
+  "fine": 1492,
+  "eventi": [
+    {
+      "id": 101,
+      "anno": 476,
+      "titolo": "Caduta dell'Impero Romano d'Occidente",
+      "luogo": "Ravenna",
+      "civilta": "Romani",
+      "categoria": "politica",
+      "descrizione": "Odoacre depone Romolo Augustolo. Convenzionalmente segna l'inizio del Medioevo."
+    },
+    {
+      "id": 102,
+      "anno": 493,
+      "titolo": "Regno degli Ostrogoti in Italia",
+      "luogo": "Italia",
+      "civilta": "Ostrogoti",
+      "categoria": "politica",
+      "descrizione": "Teodorico fonda il regno ostrogoto."
+    },
+    {
+      "id": 103,
+      "anno": 527,
+      "titolo": "Ascesa di Giustiniano",
+      "luogo": "Costantinopoli",
+      "civilta": "Bizantini",
+      "categoria": "politica",
+      "descrizione": "Inizio del regno di Giustiniano I."
+    },
+    {
+      "id": 104,
+      "anno": 529,
+      "titolo": "Fondazione di Montecassino",
+      "luogo": "Montecassino",
+      "civilta": "Cristianesimo",
+      "categoria": "religione",
+      "descrizione": "San Benedetto fonda il monastero e la regola benedettina."
+    },
+    {
+      "id": 105,
+      "anno": 533,
+      "titolo": "Corpus Iuris Civilis",
+      "luogo": "Costantinopoli",
+      "civilta": "Bizantini",
+      "categoria": "diritto",
+      "descrizione": "Raccolta del diritto romano voluta da Giustiniano."
+    },
+    {
+      "id": 106,
+      "anno": 568,
+      "titolo": "Invasione longobarda",
+      "luogo": "Italia",
+      "civilta": "Longobardi",
+      "categoria": "guerra",
+      "descrizione": "I Longobardi conquistano gran parte della penisola italiana."
+    },
+    {
+      "id": 107,
+      "anno": 622,
+      "titolo": "Egira",
+      "luogo": "Medina",
+      "civilta": "Islam",
+      "categoria": "religione",
+      "descrizione": "Maometto lascia La Mecca. Inizio del calendario islamico."
+    },
+    {
+      "id": 108,
+      "anno": 632,
+      "titolo": "Morte di Maometto",
+      "luogo": "Medina",
+      "civilta": "Islam",
+      "categoria": "religione",
+      "descrizione": "Inizia la rapida espansione del mondo islamico."
+    },
+    {
+      "id": 109,
+      "anno": 711,
+      "titolo": "Conquista musulmana della Spagna",
+      "luogo": "Spagna",
+      "civilta": "Islam",
+      "categoria": "guerra",
+      "descrizione": "Gli Arabi attraversano Gibilterra e conquistano gran parte della penisola iberica."
+    },
+    {
+      "id": 110,
+      "anno": 732,
+      "titolo": "Battaglia di Poitiers",
+      "luogo": "Francia",
+      "civilta": "Franchi",
+      "categoria": "guerra",
+      "descrizione": "Carlo Martello arresta l'avanzata araba in Europa occidentale."
+    },
+    {
+      "id": 111,
+      "anno": 754,
+      "titolo": "Nascita dello Stato della Chiesa",
+      "luogo": "Italia",
+      "civilta": "Papato",
+      "categoria": "politica",
+      "descrizione": "Donazione di Pipino al Papa."
+    },
+    {
+      "id": 112,
+      "anno": 774,
+      "titolo": "Carlo Magno conquista il Regno Longobardo",
+      "luogo": "Italia",
+      "civilta": "Franchi",
+      "categoria": "guerra",
+      "descrizione": "Fine del regno longobardo in Italia."
+    },
+    {
+      "id": 113,
+      "anno": 800,
+      "titolo": "Incoronazione di Carlo Magno",
+      "luogo": "Roma",
+      "civilta": "Franchi",
+      "categoria": "politica",
+      "descrizione": "Nasce il Sacro Romano Impero."
+    },
+    {
+      "id": 114,
+      "anno": 843,
+      "titolo": "Trattato di Verdun",
+      "luogo": "Verdun",
+      "civilta": "Franchi",
+      "categoria": "politica",
+      "descrizione": "Divisione dell'Impero Carolingio."
+    },
+    {
+      "id": 115,
+      "anno": 962,
+      "titolo": "Nascita del Sacro Romano Impero Germanico",
+      "luogo": "Roma",
+      "civilta": "Germani",
+      "categoria": "politica",
+      "descrizione": "Ottone I viene incoronato imperatore."
+    },
+    {
+      "id": 116,
+      "anno": 988,
+      "titolo": "Cristianizzazione della Rus'",
+      "luogo": "Kiev",
+      "civilta": "Rus'",
+      "categoria": "religione",
+      "descrizione": "Vladimir I adotta il cristianesimo ortodosso."
+    },
+    {
+      "id": 117,
+      "anno": 1054,
+      "titolo": "Scisma d'Oriente",
+      "luogo": "Costantinopoli",
+      "civilta": "Cristianesimo",
+      "categoria": "religione",
+      "descrizione": "Separazione tra Chiesa cattolica e Chiesa ortodossa."
+    },
+    {
+      "id": 118,
+      "anno": 1066,
+      "titolo": "Battaglia di Hastings",
+      "luogo": "Inghilterra",
+      "civilta": "Normanni",
+      "categoria": "guerra",
+      "descrizione": "Guglielmo il Conquistatore conquista l'Inghilterra."
+    },
+    {
+      "id": 119,
+      "anno": 1095,
+      "titolo": "Predicazione della Prima Crociata",
+      "luogo": "Clermont",
+      "civilta": "Cristianesimo",
+      "categoria": "religione",
+      "descrizione": "Papa Urbano II indice la Prima Crociata."
+    },
+    {
+      "id": 120,
+      "anno": 1099,
+      "titolo": "Conquista di Gerusalemme",
+      "luogo": "Gerusalemme",
+      "civilta": "Crociati",
+      "categoria": "guerra",
+      "descrizione": "Conclusione della Prima Crociata."
+    },
+    {
+      "id": 121,
+      "anno": 1158,
+      "titolo": "Dieta di Roncaglia",
+      "luogo": "Italia",
+      "civilta": "Sacro Romano Impero",
+      "categoria": "politica",
+      "descrizione": "Federico Barbarossa riafferma l'autorità imperiale."
+    },
+    {
+      "id": 122,
+      "anno": 1176,
+      "titolo": "Battaglia di Legnano",
+      "luogo": "Italia",
+      "civilta": "Comuni italiani",
+      "categoria": "guerra",
+      "descrizione": "La Lega Lombarda sconfigge Federico Barbarossa."
+    },
+    {
+      "id": 123,
+      "anno": 1215,
+      "titolo": "Magna Carta",
+      "luogo": "Inghilterra",
+      "civilta": "Inghilterra",
+      "categoria": "diritto",
+      "descrizione": "Il re Giovanni concede la Magna Carta Libertatum."
+    },
+    {
+      "id": 124,
+      "anno": 1223,
+      "titolo": "Regola francescana",
+      "luogo": "Roma",
+      "civilta": "Cristianesimo",
+      "categoria": "religione",
+      "descrizione": "Approvazione della regola di San Francesco."
+    },
+    {
+      "id": 125,
+      "anno": 1231,
+      "titolo": "Costituzioni di Melfi",
+      "luogo": "Melfi",
+      "civilta": "Regno di Sicilia",
+      "categoria": "diritto",
+      "descrizione": "Federico II promulga un moderno codice legislativo."
+    },
+    {
+      "id": 126,
+      "anno": 1271,
+      "titolo": "Viaggio di Marco Polo",
+      "luogo": "Venezia",
+      "civilta": "Veneziani",
+      "categoria": "esplorazione",
+      "descrizione": "Inizio del viaggio verso la Cina."
+    },
+    {
+      "id": 127,
+      "anno": 1291,
+      "titolo": "Caduta di Acri",
+      "luogo": "Terra Santa",
+      "civilta": "Crociati",
+      "categoria": "guerra",
+      "descrizione": "Fine degli Stati crociati in Oriente."
+    },
+    {
+      "id": 128,
+      "anno": 1300,
+      "titolo": "Primo Giubileo",
+      "luogo": "Roma",
+      "civilta": "Papato",
+      "categoria": "religione",
+      "descrizione": "Papa Bonifacio VIII indice il primo Anno Santo."
+    },
+    {
+      "id": 129,
+      "anno": 1309,
+      "titolo": "Cattività avignonese",
+      "luogo": "Avignone",
+      "civilta": "Papato",
+      "categoria": "religione",
+      "descrizione": "Trasferimento della sede papale ad Avignone."
+    },
+    {
+      "id": 130,
+      "anno": 1337,
+      "titolo": "Inizio della Guerra dei Cent'Anni",
+      "luogo": "Francia",
+      "civilta": "Francia e Inghilterra",
+      "categoria": "guerra",
+      "descrizione": "Lungo conflitto tra Francia e Inghilterra."
+    },
+    {
+      "id": 131,
+      "anno": 1347,
+      "titolo": "Peste Nera",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "epidemia",
+      "descrizione": "La peste devasta il continente europeo."
+    },
+    {
+      "id": 132,
+      "anno": 1378,
+      "titolo": "Scisma d'Occidente",
+      "luogo": "Europa",
+      "civilta": "Papato",
+      "categoria": "religione",
+      "descrizione": "Divisione della Chiesa con più papi contemporaneamente."
+    },
+    {
+      "id": 133,
+      "anno": 1415,
+      "titolo": "Concilio di Costanza",
+      "luogo": "Costanza",
+      "civilta": "Cristianesimo",
+      "categoria": "religione",
+      "descrizione": "Fine dello Scisma d'Occidente."
+    },
+    {
+      "id": 134,
+      "anno": 1429,
+      "titolo": "Giovanna d'Arco libera Orléans",
+      "luogo": "Francia",
+      "civilta": "Francia",
+      "categoria": "guerra",
+      "descrizione": "Svolta decisiva della Guerra dei Cent'Anni."
+    },
+    {
+      "id": 135,
+      "anno": 1453,
+      "titolo": "Caduta di Costantinopoli",
+      "luogo": "Costantinopoli",
+      "civilta": "Impero Ottomano",
+      "categoria": "guerra",
+      "descrizione": "I Turchi ottomani conquistano Costantinopoli. Per molti storici segna la fine del Medioevo."
+    },
+    {
+      "id": 136,
+      "anno": 1455,
+      "titolo": "Stampa a caratteri mobili",
+      "luogo": "Magonza",
+      "civilta": "Europa",
+      "categoria": "tecnologia",
+      "descrizione": "Johannes Gutenberg perfeziona la stampa moderna."
+    },
+    {
+      "id": 137,
+      "anno": 1492,
+      "titolo": "Scoperta dell'America",
+      "luogo": "Atlantico",
+      "civilta": "Europa",
+      "categoria": "esplorazione",
+      "descrizione": "Cristoforo Colombo raggiunge il continente americano. Convenzionalmente segna la fine del Medioevo e l'inizio dell'Età Moderna."
+    }
+  ]
+}

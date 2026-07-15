@@ -1,0 +1,303 @@
+{
+  "version": "1.0",
+  "epoca": "Storia Antica",
+  "eventi": [
+    {
+      "id": 1,
+      "anno": -3500,
+      "titolo": "Nascita della scrittura",
+      "luogo": "Mesopotamia",
+      "civilta": "Sumeri",
+      "categoria": "cultura",
+      "descrizione": "Comparsa della scrittura cuneiforme."
+    },
+    {
+      "id": 2,
+      "anno": -3100,
+      "titolo": "Unificazione dell'Egitto",
+      "luogo": "Egitto",
+      "civilta": "Egizi",
+      "categoria": "politica",
+      "descrizione": "Narmer unifica Alto e Basso Egitto."
+    },
+    {
+      "id": 3,
+      "anno": -2600,
+      "titolo": "Costruzione della Piramide di Cheope",
+      "luogo": "Giza",
+      "civilta": "Egizi",
+      "categoria": "architettura",
+      "descrizione": "Realizzazione della più grande piramide egizia."
+    },
+    {
+      "id": 4,
+      "anno": -1792,
+      "titolo": "Regno di Hammurabi",
+      "luogo": "Babilonia",
+      "civilta": "Babilonesi",
+      "categoria": "politica",
+      "descrizione": "Consolidamento del regno babilonese."
+    },
+    {
+      "id": 5,
+      "anno": -1754,
+      "titolo": "Codice di Hammurabi",
+      "luogo": "Babilonia",
+      "civilta": "Babilonesi",
+      "categoria": "diritto",
+      "descrizione": "Uno dei più antichi codici di leggi scritte."
+    },
+    {
+      "id": 6,
+      "anno": -1600,
+      "titolo": "Massima espansione della civiltà minoica",
+      "luogo": "Creta",
+      "civilta": "Minoici",
+      "categoria": "cultura",
+      "descrizione": "Fioritura della civiltà minoica."
+    },
+    {
+      "id": 7,
+      "anno": -1200,
+      "titolo": "Guerra di Troia",
+      "luogo": "Troia",
+      "civilta": "Greci",
+      "categoria": "guerra",
+      "descrizione": "Tradizionale data della guerra narrata da Omero."
+    },
+    {
+      "id": 8,
+      "anno": -776,
+      "titolo": "Primi Giochi Olimpici",
+      "luogo": "Olimpia",
+      "civilta": "Grecia",
+      "categoria": "sport",
+      "descrizione": "Prima edizione tradizionale dei Giochi Olimpici."
+    },
+    {
+      "id": 9,
+      "anno": -753,
+      "titolo": "Fondazione di Roma",
+      "luogo": "Roma",
+      "civilta": "Romani",
+      "categoria": "politica",
+      "descrizione": "Fondazione leggendaria della città."
+    },
+    {
+      "id": 10,
+      "anno": -621,
+      "titolo": "Leggi di Dracone",
+      "luogo": "Atene",
+      "civilta": "Grecia",
+      "categoria": "diritto",
+      "descrizione": "Prima codificazione delle leggi ateniesi."
+    },
+    {
+      "id": 11,
+      "anno": -594,
+      "titolo": "Riforme di Solone",
+      "luogo": "Atene",
+      "civilta": "Grecia",
+      "categoria": "politica",
+      "descrizione": "Importanti riforme sociali e costituzionali."
+    },
+    {
+      "id": 12,
+      "anno": -509,
+      "titolo": "Nascita della Repubblica Romana",
+      "luogo": "Roma",
+      "civilta": "Romani",
+      "categoria": "politica",
+      "descrizione": "Fine della monarchia romana."
+    },
+    {
+      "id": 13,
+      "anno": -490,
+      "titolo": "Battaglia di Maratona",
+      "luogo": "Maratona",
+      "civilta": "Grecia",
+      "categoria": "guerra",
+      "descrizione": "Vittoria ateniese sui Persiani."
+    },
+    {
+      "id": 14,
+      "anno": -480,
+      "titolo": "Battaglia delle Termopili",
+      "luogo": "Grecia",
+      "civilta": "Grecia",
+      "categoria": "guerra",
+      "descrizione": "Resistenza di Leonida contro i Persiani."
+    },
+    {
+      "id": 15,
+      "anno": -479,
+      "titolo": "Battaglia di Platea",
+      "luogo": "Grecia",
+      "civilta": "Grecia",
+      "categoria": "guerra",
+      "descrizione": "Fine dell'invasione persiana."
+    },
+    {
+      "id": 16,
+      "anno": -447,
+      "titolo": "Costruzione del Partenone",
+      "luogo": "Atene",
+      "civilta": "Grecia",
+      "categoria": "architettura",
+      "descrizione": "Inizio della costruzione del Partenone."
+    },
+    {
+      "id": 17,
+      "anno": -431,
+      "titolo": "Guerra del Peloponneso",
+      "luogo": "Grecia",
+      "civilta": "Grecia",
+      "categoria": "guerra",
+      "descrizione": "Conflitto tra Atene e Sparta."
+    },
+    {
+      "id": 18,
+      "anno": -336,
+      "titolo": "Ascesa di Alessandro Magno",
+      "luogo": "Macedonia",
+      "civilta": "Macedoni",
+      "categoria": "politica",
+      "descrizione": "Inizio del regno di Alessandro."
+    },
+    {
+      "id": 19,
+      "anno": -331,
+      "titolo": "Fondazione di Alessandria",
+      "luogo": "Egitto",
+      "civilta": "Macedoni",
+      "categoria": "politica",
+      "descrizione": "Fondazione della celebre città."
+    },
+    {
+      "id": 20,
+      "anno": -323,
+      "titolo": "Morte di Alessandro Magno",
+      "luogo": "Babilonia",
+      "civilta": "Macedoni",
+      "categoria": "politica",
+      "descrizione": "Inizio dell'età ellenistica."
+    },
+    {
+      "id": 21,
+      "anno": -264,
+      "titolo": "Prima Guerra Punica",
+      "luogo": "Mediterraneo",
+      "civilta": "Roma",
+      "categoria": "guerra",
+      "descrizione": "Primo conflitto tra Roma e Cartagine."
+    },
+    {
+      "id": 22,
+      "anno": -218,
+      "titolo": "Seconda Guerra Punica",
+      "luogo": "Italia",
+      "civilta": "Roma",
+      "categoria": "guerra",
+      "descrizione": "Annibale attraversa le Alpi."
+    },
+    {
+      "id": 23,
+      "anno": -202,
+      "titolo": "Battaglia di Zama",
+      "luogo": "Africa",
+      "civilta": "Roma",
+      "categoria": "guerra",
+      "descrizione": "Scipione sconfigge Annibale."
+    },
+    {
+      "id": 24,
+      "anno": -146,
+      "titolo": "Distruzione di Cartagine",
+      "luogo": "Cartagine",
+      "civilta": "Roma",
+      "categoria": "guerra",
+      "descrizione": "Fine delle Guerre Puniche."
+    },
+    {
+      "id": 25,
+      "anno": -44,
+      "titolo": "Assassinio di Giulio Cesare",
+      "luogo": "Roma",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "Cesare viene ucciso alle Idi di marzo."
+    },
+    {
+      "id": 26,
+      "anno": -31,
+      "titolo": "Battaglia di Azio",
+      "luogo": "Grecia",
+      "civilta": "Roma",
+      "categoria": "guerra",
+      "descrizione": "Ottaviano sconfigge Antonio e Cleopatra."
+    },
+    {
+      "id": 27,
+      "anno": -27,
+      "titolo": "Nascita dell'Impero Romano",
+      "luogo": "Roma",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "Ottaviano diventa Augusto."
+    },
+    {
+      "id": 28,
+      "anno": 79,
+      "titolo": "Eruzione del Vesuvio",
+      "luogo": "Pompei",
+      "civilta": "Roma",
+      "categoria": "disastro",
+      "descrizione": "Distruzione di Pompei ed Ercolano."
+    },
+    {
+      "id": 29,
+      "anno": 117,
+      "titolo": "Massima espansione dell'Impero Romano",
+      "luogo": "Roma",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "L'impero raggiunge la massima estensione sotto Traiano."
+    },
+    {
+      "id": 30,
+      "anno": 313,
+      "titolo": "Editto di Milano",
+      "luogo": "Milano",
+      "civilta": "Roma",
+      "categoria": "religione",
+      "descrizione": "Libertà di culto per i cristiani."
+    },
+    {
+      "id": 31,
+      "anno": 330,
+      "titolo": "Fondazione di Costantinopoli",
+      "luogo": "Bisanzio",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "Nuova capitale dell'Impero Romano."
+    },
+    {
+      "id": 32,
+      "anno": 395,
+      "titolo": "Divisione dell'Impero Romano",
+      "luogo": "Impero Romano",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "Separazione tra Impero d'Occidente e d'Oriente."
+    },
+    {
+      "id": 33,
+      "anno": 476,
+      "titolo": "Caduta dell'Impero Romano d'Occidente",
+      "luogo": "Roma",
+      "civilta": "Roma",
+      "categoria": "politica",
+      "descrizione": "Deposizione di Romolo Augustolo."
+    }
+  ]
+}

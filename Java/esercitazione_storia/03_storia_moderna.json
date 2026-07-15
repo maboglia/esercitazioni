@@ -1,0 +1,304 @@
+{
+  "epoca": "Età Moderna",
+  "inizio": 1492,
+  "fine": 1789,
+  "eventi": [
+    {
+      "id": 201,
+      "anno": 1492,
+      "titolo": "Scoperta dell'America",
+      "luogo": "Bahamas",
+      "civilta": "Spagna",
+      "categoria": "esplorazione",
+      "descrizione": "Cristoforo Colombo raggiunge il continente americano."
+    },
+    {
+      "id": 202,
+      "anno": 1494,
+      "titolo": "Trattato di Tordesillas",
+      "luogo": "Tordesillas",
+      "civilta": "Spagna e Portogallo",
+      "categoria": "politica",
+      "descrizione": "Spagna e Portogallo si dividono le nuove terre extraeuropee."
+    },
+    {
+      "id": 203,
+      "anno": 1498,
+      "titolo": "Vasco da Gama raggiunge l'India",
+      "luogo": "Calicut",
+      "civilta": "Portogallo",
+      "categoria": "esplorazione",
+      "descrizione": "Apertura della rotta marittima verso l'India."
+    },
+    {
+      "id": 204,
+      "anno": 1503,
+      "titolo": "La Gioconda",
+      "luogo": "Firenze",
+      "civilta": "Rinascimento",
+      "categoria": "arte",
+      "descrizione": "Leonardo da Vinci inizia il celebre dipinto."
+    },
+    {
+      "id": 205,
+      "anno": 1517,
+      "titolo": "Le 95 tesi di Martin Lutero",
+      "luogo": "Wittenberg",
+      "civilta": "Germania",
+      "categoria": "religione",
+      "descrizione": "Inizio della Riforma protestante."
+    },
+    {
+      "id": 206,
+      "anno": 1519,
+      "titolo": "Magellano inizia la circumnavigazione",
+      "luogo": "Siviglia",
+      "civilta": "Spagna",
+      "categoria": "esplorazione",
+      "descrizione": "Prima spedizione intorno al mondo."
+    },
+    {
+      "id": 207,
+      "anno": 1521,
+      "titolo": "Caduta dell'Impero Azteco",
+      "luogo": "Tenochtitlán",
+      "civilta": "Spagna",
+      "categoria": "guerra",
+      "descrizione": "Hernán Cortés conquista la capitale azteca."
+    },
+    {
+      "id": 208,
+      "anno": 1527,
+      "titolo": "Sacco di Roma",
+      "luogo": "Roma",
+      "civilta": "Sacro Romano Impero",
+      "categoria": "guerra",
+      "descrizione": "Le truppe imperiali devastano Roma."
+    },
+    {
+      "id": 209,
+      "anno": 1534,
+      "titolo": "Atto di Supremazia",
+      "luogo": "Inghilterra",
+      "civilta": "Inghilterra",
+      "categoria": "religione",
+      "descrizione": "Nasce la Chiesa anglicana."
+    },
+    {
+      "id": 210,
+      "anno": 1543,
+      "titolo": "Rivoluzione copernicana",
+      "luogo": "Norimberga",
+      "civilta": "Europa",
+      "categoria": "scienza",
+      "descrizione": "Copernico pubblica il modello eliocentrico."
+    },
+    {
+      "id": 211,
+      "anno": 1545,
+      "titolo": "Concilio di Trento",
+      "luogo": "Trento",
+      "civilta": "Chiesa cattolica",
+      "categoria": "religione",
+      "descrizione": "Inizio della Controriforma."
+    },
+    {
+      "id": 212,
+      "anno": 1555,
+      "titolo": "Pace di Augusta",
+      "luogo": "Augusta",
+      "civilta": "Sacro Romano Impero",
+      "categoria": "politica",
+      "descrizione": "Riconoscimento del luteranesimo nei principati tedeschi."
+    },
+    {
+      "id": 213,
+      "anno": 1571,
+      "titolo": "Battaglia di Lepanto",
+      "luogo": "Golfo di Patrasso",
+      "civilta": "Lega Santa",
+      "categoria": "guerra",
+      "descrizione": "La flotta cristiana sconfigge quella ottomana."
+    },
+    {
+      "id": 214,
+      "anno": 1588,
+      "titolo": "Sconfitta dell'Invincibile Armata",
+      "luogo": "Canale della Manica",
+      "civilta": "Inghilterra",
+      "categoria": "guerra",
+      "descrizione": "La flotta inglese respinge l'Armada spagnola."
+    },
+    {
+      "id": 215,
+      "anno": 1598,
+      "titolo": "Editto di Nantes",
+      "luogo": "Francia",
+      "civilta": "Francia",
+      "categoria": "religione",
+      "descrizione": "Libertà religiosa agli ugonotti."
+    },
+    {
+      "id": 216,
+      "anno": 1600,
+      "titolo": "Esecuzione di Giordano Bruno",
+      "luogo": "Roma",
+      "civilta": "Italia",
+      "categoria": "scienza",
+      "descrizione": "Il filosofo viene condannato al rogo."
+    },
+    {
+      "id": 217,
+      "anno": 1609,
+      "titolo": "Galileo osserva il cielo con il telescopio",
+      "luogo": "Padova",
+      "civilta": "Italia",
+      "categoria": "scienza",
+      "descrizione": "Inizio dell'astronomia moderna."
+    },
+    {
+      "id": 218,
+      "anno": 1618,
+      "titolo": "Guerra dei Trent'Anni",
+      "luogo": "Europa centrale",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Grande conflitto religioso e politico europeo."
+    },
+    {
+      "id": 219,
+      "anno": 1642,
+      "titolo": "Inizio della Guerra Civile Inglese",
+      "luogo": "Inghilterra",
+      "civilta": "Inghilterra",
+      "categoria": "guerra",
+      "descrizione": "Scontro tra Parlamento e re Carlo I."
+    },
+    {
+      "id": 220,
+      "anno": 1648,
+      "titolo": "Pace di Vestfalia",
+      "luogo": "Vestfalia",
+      "civilta": "Europa",
+      "categoria": "politica",
+      "descrizione": "Fine della Guerra dei Trent'Anni e nascita del sistema degli Stati moderni."
+    },
+    {
+      "id": 221,
+      "anno": 1661,
+      "titolo": "Inizio del regno personale di Luigi XIV",
+      "luogo": "Francia",
+      "civilta": "Francia",
+      "categoria": "politica",
+      "descrizione": "Apogeo dell'assolutismo monarchico."
+    },
+    {
+      "id": 222,
+      "anno": 1687,
+      "titolo": "Principia Mathematica",
+      "luogo": "Londra",
+      "civilta": "Inghilterra",
+      "categoria": "scienza",
+      "descrizione": "Isaac Newton pubblica le leggi della gravitazione universale."
+    },
+    {
+      "id": 223,
+      "anno": 1688,
+      "titolo": "Gloriosa Rivoluzione",
+      "luogo": "Inghilterra",
+      "civilta": "Inghilterra",
+      "categoria": "politica",
+      "descrizione": "Affermata la monarchia parlamentare."
+    },
+    {
+      "id": 224,
+      "anno": 1689,
+      "titolo": "Bill of Rights",
+      "luogo": "Londra",
+      "civilta": "Inghilterra",
+      "categoria": "diritto",
+      "descrizione": "Limitazione dei poteri del sovrano e tutela del Parlamento."
+    },
+    {
+      "id": 225,
+      "anno": 1701,
+      "titolo": "Guerra di successione spagnola",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Conflitto per l'eredità della corona di Spagna."
+    },
+    {
+      "id": 226,
+      "anno": 1707,
+      "titolo": "Nascita della Gran Bretagna",
+      "luogo": "Londra",
+      "civilta": "Gran Bretagna",
+      "categoria": "politica",
+      "descrizione": "Unione tra Inghilterra e Scozia."
+    },
+    {
+      "id": 227,
+      "anno": 1751,
+      "titolo": "Pubblicazione dell'Encyclopédie",
+      "luogo": "Parigi",
+      "civilta": "Illuminismo",
+      "categoria": "cultura",
+      "descrizione": "Diderot e d'Alembert avviano la pubblicazione dell'opera simbolo dell'Illuminismo."
+    },
+    {
+      "id": 228,
+      "anno": 1756,
+      "titolo": "Guerra dei Sette Anni",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Primo conflitto realmente mondiale."
+    },
+    {
+      "id": 229,
+      "anno": 1769,
+      "titolo": "Macchina a vapore di James Watt",
+      "luogo": "Scozia",
+      "civilta": "Gran Bretagna",
+      "categoria": "tecnologia",
+      "descrizione": "Perfezionamento della macchina a vapore, simbolo della Rivoluzione Industriale."
+    },
+    {
+      "id": 230,
+      "anno": 1776,
+      "titolo": "Dichiarazione d'Indipendenza degli Stati Uniti",
+      "luogo": "Filadelfia",
+      "civilta": "Stati Uniti",
+      "categoria": "politica",
+      "descrizione": "Le tredici colonie dichiarano l'indipendenza dalla Gran Bretagna."
+    },
+    {
+      "id": 231,
+      "anno": 1783,
+      "titolo": "Trattato di Parigi",
+      "luogo": "Parigi",
+      "civilta": "Stati Uniti",
+      "categoria": "politica",
+      "descrizione": "La Gran Bretagna riconosce l'indipendenza degli Stati Uniti."
+    },
+    {
+      "id": 232,
+      "anno": 1787,
+      "titolo": "Costituzione degli Stati Uniti",
+      "luogo": "Filadelfia",
+      "civilta": "Stati Uniti",
+      "categoria": "diritto",
+      "descrizione": "Approvazione della prima moderna costituzione scritta ancora in vigore."
+    },
+    {
+      "id": 233,
+      "anno": 1789,
+      "titolo": "Presa della Bastiglia",
+      "luogo": "Parigi",
+      "civilta": "Francia",
+      "categoria": "rivoluzione",
+      "descrizione": "Inizio della Rivoluzione francese e convenzionale fine dell'Età Moderna."
+    }
+  ]
+}

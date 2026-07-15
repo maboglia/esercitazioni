@@ -1,0 +1,340 @@
+{
+  "epoca": "Età Contemporanea",
+  "inizio": 1789,
+  "fine": 2100,
+  "eventi": [
+    {
+      "id": 301,
+      "anno": 1789,
+      "titolo": "Rivoluzione francese",
+      "luogo": "Parigi",
+      "civilta": "Francia",
+      "categoria": "rivoluzione",
+      "descrizione": "Presa della Bastiglia e inizio della Rivoluzione francese."
+    },
+    {
+      "id": 302,
+      "anno": 1792,
+      "titolo": "Proclamazione della Prima Repubblica francese",
+      "luogo": "Parigi",
+      "civilta": "Francia",
+      "categoria": "politica",
+      "descrizione": "Abolizione della monarchia francese."
+    },
+    {
+      "id": 303,
+      "anno": 1799,
+      "titolo": "Colpo di Stato di Napoleone",
+      "luogo": "Francia",
+      "civilta": "Francia",
+      "categoria": "politica",
+      "descrizione": "Napoleone Bonaparte diventa Primo Console."
+    },
+    {
+      "id": 304,
+      "anno": 1804,
+      "titolo": "Napoleone imperatore",
+      "luogo": "Parigi",
+      "civilta": "Francia",
+      "categoria": "politica",
+      "descrizione": "Napoleone viene incoronato imperatore dei francesi."
+    },
+    {
+      "id": 305,
+      "anno": 1815,
+      "titolo": "Battaglia di Waterloo",
+      "luogo": "Belgio",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Sconfitta definitiva di Napoleone."
+    },
+    {
+      "id": 306,
+      "anno": 1815,
+      "titolo": "Congresso di Vienna",
+      "luogo": "Vienna",
+      "civilta": "Europa",
+      "categoria": "politica",
+      "descrizione": "Ridefinizione dell'assetto europeo dopo le guerre napoleoniche."
+    },
+    {
+      "id": 307,
+      "anno": 1848,
+      "titolo": "Primavera dei Popoli",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "rivoluzione",
+      "descrizione": "Ondata di rivoluzioni liberali e nazionali."
+    },
+    {
+      "id": 308,
+      "anno": 1861,
+      "titolo": "Proclamazione del Regno d'Italia",
+      "luogo": "Torino",
+      "civilta": "Italia",
+      "categoria": "politica",
+      "descrizione": "Nascita del Regno d'Italia."
+    },
+    {
+      "id": 309,
+      "anno": 1865,
+      "titolo": "Fine della Guerra Civile Americana",
+      "luogo": "Stati Uniti",
+      "civilta": "Stati Uniti",
+      "categoria": "guerra",
+      "descrizione": "Abolizione della schiavitù negli Stati Uniti."
+    },
+    {
+      "id": 310,
+      "anno": 1870,
+      "titolo": "Presa di Roma",
+      "luogo": "Roma",
+      "civilta": "Italia",
+      "categoria": "politica",
+      "descrizione": "Completamento dell'Unità d'Italia."
+    },
+    {
+      "id": 311,
+      "anno": 1871,
+      "titolo": "Unificazione della Germania",
+      "luogo": "Versailles",
+      "civilta": "Germania",
+      "categoria": "politica",
+      "descrizione": "Proclamazione dell'Impero tedesco."
+    },
+    {
+      "id": 312,
+      "anno": 1885,
+      "titolo": "Conferenza di Berlino",
+      "luogo": "Berlino",
+      "civilta": "Europa",
+      "categoria": "politica",
+      "descrizione": "Divisione coloniale dell'Africa."
+    },
+    {
+      "id": 313,
+      "anno": 1903,
+      "titolo": "Primo volo dei fratelli Wright",
+      "luogo": "Stati Uniti",
+      "civilta": "Stati Uniti",
+      "categoria": "tecnologia",
+      "descrizione": "Primo volo controllato di un aeroplano."
+    },
+    {
+      "id": 314,
+      "anno": 1914,
+      "titolo": "Inizio della Prima Guerra Mondiale",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Scoppio del primo conflitto mondiale."
+    },
+    {
+      "id": 315,
+      "anno": 1917,
+      "titolo": "Rivoluzione Russa",
+      "luogo": "Russia",
+      "civilta": "Russia",
+      "categoria": "rivoluzione",
+      "descrizione": "I bolscevichi prendono il potere."
+    },
+    {
+      "id": 316,
+      "anno": 1918,
+      "titolo": "Fine della Prima Guerra Mondiale",
+      "luogo": "Europa",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "Armistizio dell'11 novembre."
+    },
+    {
+      "id": 317,
+      "anno": 1919,
+      "titolo": "Trattato di Versailles",
+      "luogo": "Versailles",
+      "civilta": "Europa",
+      "categoria": "politica",
+      "descrizione": "Conclusione ufficiale della Prima Guerra Mondiale."
+    },
+    {
+      "id": 318,
+      "anno": 1922,
+      "titolo": "Marcia su Roma",
+      "luogo": "Roma",
+      "civilta": "Italia",
+      "categoria": "politica",
+      "descrizione": "Inizio del regime fascista."
+    },
+    {
+      "id": 319,
+      "anno": 1929,
+      "titolo": "Crollo di Wall Street",
+      "luogo": "New York",
+      "civilta": "Stati Uniti",
+      "categoria": "economia",
+      "descrizione": "Inizio della Grande Depressione."
+    },
+    {
+      "id": 320,
+      "anno": 1933,
+      "titolo": "Hitler al potere",
+      "luogo": "Germania",
+      "civilta": "Germania",
+      "categoria": "politica",
+      "descrizione": "Adolf Hitler diventa cancelliere."
+    },
+    {
+      "id": 321,
+      "anno": 1939,
+      "titolo": "Inizio della Seconda Guerra Mondiale",
+      "luogo": "Polonia",
+      "civilta": "Europa",
+      "categoria": "guerra",
+      "descrizione": "La Germania invade la Polonia."
+    },
+    {
+      "id": 322,
+      "anno": 1945,
+      "titolo": "Fine della Seconda Guerra Mondiale",
+      "luogo": "Mondo",
+      "civilta": "Alleati",
+      "categoria": "guerra",
+      "descrizione": "Resa della Germania e del Giappone."
+    },
+    {
+      "id": 323,
+      "anno": 1945,
+      "titolo": "Fondazione delle Nazioni Unite",
+      "luogo": "San Francisco",
+      "civilta": "ONU",
+      "categoria": "politica",
+      "descrizione": "Nasce l'Organizzazione delle Nazioni Unite."
+    },
+    {
+      "id": 324,
+      "anno": 1947,
+      "titolo": "Inizio della Guerra Fredda",
+      "luogo": "Mondo",
+      "civilta": "USA e URSS",
+      "categoria": "politica",
+      "descrizione": "Contrapposizione tra blocco occidentale e blocco sovietico."
+    },
+    {
+      "id": 325,
+      "anno": 1948,
+      "titolo": "Dichiarazione Universale dei Diritti Umani",
+      "luogo": "Parigi",
+      "civilta": "ONU",
+      "categoria": "diritto",
+      "descrizione": "L'ONU approva la Dichiarazione Universale dei Diritti Umani."
+    },
+    {
+      "id": 326,
+      "anno": 1948,
+      "titolo": "Costituzione della Repubblica Italiana",
+      "luogo": "Roma",
+      "civilta": "Italia",
+      "categoria": "diritto",
+      "descrizione": "Entra in vigore la Costituzione italiana."
+    },
+    {
+      "id": 327,
+      "anno": 1957,
+      "titolo": "Trattati di Roma",
+      "luogo": "Roma",
+      "civilta": "Europa",
+      "categoria": "politica",
+      "descrizione": "Nasce la Comunità Economica Europea."
+    },
+    {
+      "id": 328,
+      "anno": 1961,
+      "titolo": "Costruzione del Muro di Berlino",
+      "luogo": "Berlino",
+      "civilta": "Germania",
+      "categoria": "politica",
+      "descrizione": "Simbolo della Guerra Fredda."
+    },
+    {
+      "id": 329,
+      "anno": 1969,
+      "titolo": "Primo uomo sulla Luna",
+      "luogo": "Luna",
+      "civilta": "Stati Uniti",
+      "categoria": "scienza",
+      "descrizione": "Missione Apollo 11."
+    },
+    {
+      "id": 330,
+      "anno": 1989,
+      "titolo": "Caduta del Muro di Berlino",
+      "luogo": "Berlino",
+      "civilta": "Germania",
+      "categoria": "politica",
+      "descrizione": "Fine simbolica della Guerra Fredda."
+    },
+    {
+      "id": 331,
+      "anno": 1991,
+      "titolo": "Dissoluzione dell'Unione Sovietica",
+      "luogo": "Mosca",
+      "civilta": "URSS",
+      "categoria": "politica",
+      "descrizione": "Fine dell'Unione Sovietica."
+    },
+    {
+      "id": 332,
+      "anno": 1992,
+      "titolo": "Trattato di Maastricht",
+      "luogo": "Maastricht",
+      "civilta": "Unione Europea",
+      "categoria": "politica",
+      "descrizione": "Nasce ufficialmente l'Unione Europea."
+    },
+    {
+      "id": 333,
+      "anno": 2001,
+      "titolo": "Attentati dell'11 settembre",
+      "luogo": "New York",
+      "civilta": "Stati Uniti",
+      "categoria": "terrorismo",
+      "descrizione": "Attacchi terroristici contro gli Stati Uniti."
+    },
+    {
+      "id": 334,
+      "anno": 2002,
+      "titolo": "Introduzione dell'euro",
+      "luogo": "Europa",
+      "civilta": "Unione Europea",
+      "categoria": "economia",
+      "descrizione": "Entrano in circolazione le banconote e le monete in euro."
+    },
+    {
+      "id": 335,
+      "anno": 2008,
+      "titolo": "Crisi finanziaria globale",
+      "luogo": "Mondo",
+      "civilta": "Economia mondiale",
+      "categoria": "economia",
+      "descrizione": "Fallimento di Lehman Brothers e crisi finanziaria internazionale."
+    },
+    {
+      "id": 336,
+      "anno": 2020,
+      "titolo": "Pandemia di COVID-19",
+      "luogo": "Mondo",
+      "civilta": "Mondo",
+      "categoria": "epidemia",
+      "descrizione": "La pandemia di COVID-19 provoca una crisi sanitaria ed economica globale."
+    },
+    {
+      "id": 337,
+      "anno": 2022,
+      "titolo": "Invasione russa dell'Ucraina",
+      "luogo": "Ucraina",
+      "civilta": "Russia e Ucraina",
+      "categoria": "guerra",
+      "descrizione": "La Russia invade l'Ucraina, dando inizio a un conflitto su larga scala in Europa."
+    }
+  ]
+}
